@@ -1,0 +1,19 @@
+@(implicit env: play.api.Environment)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>スカルキング</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+    </head>
+    <body>
+        <div id="skulking-board"></div>
+        @scalajs.html.scripts(
+            "skulking-client",
+            routes.Assets.versioned(_).toString,
+            name => getClass.getResource(s"/public/$name") != null
+        )
+    </body>
+</html>

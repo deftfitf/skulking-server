@@ -1,0 +1,782 @@
+.card {
+    width: 100px;
+    height: 162px;
+    margin: 5px 0 5px 5px;
+}
+
+#deck-div {
+    margin-left: auto;
+}
+
+#skulking-board-roundinfo-hands {
+    display: flex;
+}
+
+#skulking-board-roundinfo-deck {
+    margin-left: auto;
+}
+
+/** Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> **/
+
+.player-status-thinking {
+    display: block;
+    background: url(/assets/images/thinking.svg) no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.player-status-bid-declared {
+    display: block;
+    background: url(/assets/images/gestures.svg) no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.player-n-of-hands {
+    display: block;
+    background: url(/assets/images/sports.svg) no-repeat;
+    width: 13px;
+    height: 24px;
+    padding-left: 25px;
+}
+
+.player-declared-bid-n {
+    display: block;
+    background: url(/assets/images/speech-bubble.svg) no-repeat;
+    width: 13px;
+    height: 24px;
+    padding-left: 25px;
+}
+
+.player-status-taken-trick {
+    display: block;
+    background: url(/assets/images/seo-and-web.svg) no-repeat;
+    width: 13px;
+    height: 24px;
+    padding-left: 25px;
+}
+.skulking-container{
+	display: flex;
+	margin: 30px;
+}
+.skulking-container-dashboard{
+	display: flex;
+	margin: 30px;
+	justify-content: center;
+}
+#skulking-board-popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #FFF;
+    padding: 15px 0;
+}
+#skulking-board-popup > div {
+    margin-left: 15px;
+}
+.popup-interface-button-no {
+    margin-left: 5px;
+}
+body{
+	background: rgb(49, 49, 49);
+	margin: 0px;
+}
+.skulking-container-right{
+	width: 350px;
+}
+.skulking-container-left{
+	width: 100%;
+	background: url(/assets/images/background.jpg);
+	border-radius: 5px;
+}
+.skulking-container-center{
+    background: #FFF;
+    padding: 30px;
+    border-radius: 5px;
+    min-width: 600px;
+}
+form#skulking-login-form {
+    margin: 30px 0 0 0;
+}
+#skulking-login-form label {
+    margin-right: 5px;
+}
+#skulking-login-form input {
+    margin-bottom: 5px;
+}
+#skulking-login-button {
+    margin-right: 5px;
+}
+#skulking-login-form button {
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+div#skulking-board-roundinfo{
+	background: #ffffff54;
+	display: flex;
+	padding: 15px;
+}
+div#skulking-board-roundinfo-info{
+	border-radius: 5px 5px 0 0;
+	background: #000;
+	color: #FFF;
+	padding: 10px 15px;
+}
+div#skulking-board-roundinfo-hands {
+    display: flex;
+    width: 100%;
+}
+div#skulking-board-roundinfo-deck {
+    flex-direction: column;
+}
+#skulking-board-roundinfo > ul{
+	display: flex;
+}
+#skulking-board-roundinfo > ul > li{
+	display: block;
+}
+#skulking-board-roundinfo-info > ul{
+	display: flex;
+}
+#skulking-board-roundinfo-info > ul > li{
+	display: block;
+}
+#skulking-board-roundinfo-info > ul{
+	padding: 0;
+	margin: 0;
+}
+#skulking-board-roundinfo-info > ul > li{
+	padding: 5px;
+	background: #505050;
+	border-radius: 5px;
+}
+#skulking-board-roundinfo-info > ul > li{
+	margin: 5px 10px 5px 0;
+}
+.skulking-container-left{
+	margin-right: 30px;
+}
+#skulking-board-players > div{
+	background: #FFF;
+	border-radius: 5px;
+	padding: 10px;
+	-f-o-n-t--w-e-i-g-h-t: 200;
+	margin-bottom: 25px;
+}
+div#skulking-board-eventstream{
+	background: #FFF;
+	border-radius: 5px;
+}
+p{
+	padding: 0px;
+	margin: 0px;
+}
+#skulking-board-players > div > ol{
+	display: flex;
+	padding: 0 0 0 5px;
+	margin: 3px 0;
+}
+#skulking-board-players > div > li{
+	margin-right: 5px;
+}
+div#skulking-board-eventstream > div{
+	margin-bottom: 5px;
+}
+div#skulking-board-eventstream{
+	padding: 15px 15px 10px 15px;
+}
+#skulking-board-players > div > p{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.card{
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px 0;
+}
+div#skulking-board-roundinfo > div{
+	display: flex;
+}
+#skulking-board-roundinfo-deck{
+	text-align: center;
+	padding: 10px 15px 15px 10px;
+}
+#skulking-board-roundinfo-hands{
+	padding: 15px;
+}
+div#skulking-board-field{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 175px;
+	padding: 20px;
+	background: #6b0000;
+    margin-bottom: 20px;
+	-f-o-n-t--w-e-i-g-h-t: 100;
+	border: solid 3px;
+	-moz-box-shadow: 0 0 10px 10px rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.3) inset;
+	-o-box-shadow: 0 0 10px 10px rgba(0,0,0,0.3) inset;
+	-ms-box-shadow: 0 0 10px 10px rgba(0,0,0,0.3) inset;
+}
+div#skulking-board-scoreboard > table{
+	border-collapse: collapse;
+    border: solid 1px;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.3);
+}
+div#skulking-board-scoreboard{
+	padding: 10px 30px 30px;
+	display: flex;
+    justify-content: center;
+}
+div#skulking-board-scoreboard > table > caption{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+th {
+    border: solid #000 1px;
+    padding: 10px;
+}
+td {
+    text-align: center;
+    border: 1px #000 solid;
+    padding: 10px;
+    font-weight: bold;
+}
+.skulking-container-left{
+	box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+#skulking-board-players > div{
+	box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+div#skulking-board-eventstream{
+	box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Black1 {
+  background: url(/assets/images/card/Black1.jpg) no-repeat;
+}
+.Black2 {
+  background: url(/assets/images/card/Black2.jpg) no-repeat;
+}
+.Black3 {
+  background: url(/assets/images/card/Black3.jpg) no-repeat;
+}
+.Black4 {
+  background: url(/assets/images/card/Black4.jpg) no-repeat;
+}
+.Black5 {
+  background: url(/assets/images/card/Black5.jpg) no-repeat;
+}
+.Black6 {
+  background: url(/assets/images/card/Black6.jpg) no-repeat;
+}
+.Black7 {
+  background: url(/assets/images/card/Black7.jpg) no-repeat;
+}
+.Black8 {
+  background: url(/assets/images/card/Black8.jpg) no-repeat;
+}
+.Black9 {
+  background: url(/assets/images/card/Black9.jpg) no-repeat;
+}
+.Black10 {
+  background: url(/assets/images/card/Black10.jpg) no-repeat;
+}
+.Black11 {
+  background: url(/assets/images/card/Black11.jpg) no-repeat;
+}
+.Black12 {
+  background: url(/assets/images/card/Black12.jpg) no-repeat;
+}
+.Black13 {
+  background: url(/assets/images/card/Black13.jpg) no-repeat;
+}
+.Black14 {
+  background: url(/assets/images/card/Black14.jpg) no-repeat;
+}
+.Yellow1 {
+  background: url(/assets/images/card/Yellow1.jpg) no-repeat;
+}
+.Yellow2 {
+  background: url(/assets/images/card/Yellow2.jpg) no-repeat;
+}
+.Yellow3 {
+  background: url(/assets/images/card/Yellow3.jpg) no-repeat;
+}
+.Yellow4 {
+  background: url(/assets/images/card/Yellow4.jpg) no-repeat;
+}
+.Yellow5 {
+  background: url(/assets/images/card/Yellow5.jpg) no-repeat;
+}
+.Yellow6 {
+  background: url(/assets/images/card/Yellow6.jpg) no-repeat;
+}
+.Yellow7 {
+  background: url(/assets/images/card/Yellow7.jpg) no-repeat;
+}
+.Yellow8 {
+  background: url(/assets/images/card/Yellow8.jpg) no-repeat;
+}
+.Yellow9 {
+  background: url(/assets/images/card/Yellow9.jpg) no-repeat;
+}
+.Yellow10 {
+  background: url(/assets/images/card/Yellow10.jpg) no-repeat;
+}
+.Yellow11 {
+  background: url(/assets/images/card/Yellow11.jpg) no-repeat;
+}
+.Yellow12 {
+  background: url(/assets/images/card/Yellow12.jpg) no-repeat;
+}
+.Yellow13 {
+  background: url(/assets/images/card/Yellow13.jpg) no-repeat;
+}
+.Yellow14 {
+  background: url(/assets/images/card/Yellow14.jpg) no-repeat;
+}
+.Green1 {
+  background: url(/assets/images/card/Green1.jpg) no-repeat;
+}
+.Green2 {
+  background: url(/assets/images/card/Green2.jpg) no-repeat;
+}
+.Green3 {
+  background: url(/assets/images/card/Green3.jpg) no-repeat;
+}
+.Green4 {
+  background: url(/assets/images/card/Green4.jpg) no-repeat;
+}
+.Green5 {
+  background: url(/assets/images/card/Green5.jpg) no-repeat;
+}
+.Green6 {
+  background: url(/assets/images/card/Green6.jpg) no-repeat;
+}
+.Green7 {
+  background: url(/assets/images/card/Green7.jpg) no-repeat;
+}
+.Green8 {
+  background: url(/assets/images/card/Green8.jpg) no-repeat;
+}
+.Green9 {
+  background: url(/assets/images/card/Green9.jpg) no-repeat;
+}
+.Green10 {
+  background: url(/assets/images/card/Green10.jpg) no-repeat;
+}
+.Green11 {
+  background: url(/assets/images/card/Green11.jpg) no-repeat;
+}
+.Green12 {
+  background: url(/assets/images/card/Green12.jpg) no-repeat;
+}
+.Green13 {
+  background: url(/assets/images/card/Green13.jpg) no-repeat;
+}
+.Green14 {
+  background: url(/assets/images/card/Green14.jpg) no-repeat;
+}
+.Purple1 {
+  background: url(/assets/images/card/Purple1.jpg) no-repeat;
+}
+.Purple2 {
+  background: url(/assets/images/card/Purple2.jpg) no-repeat;
+}
+.Purple3 {
+  background: url(/assets/images/card/Purple3.jpg) no-repeat;
+}
+.Purple4 {
+  background: url(/assets/images/card/Purple4.jpg) no-repeat;
+}
+.Purple5 {
+  background: url(/assets/images/card/Purple5.jpg) no-repeat;
+}
+.Purple6 {
+  background: url(/assets/images/card/Purple6.jpg) no-repeat;
+}
+.Purple7 {
+  background: url(/assets/images/card/Purple7.jpg) no-repeat;
+}
+.Purple8 {
+  background: url(/assets/images/card/Purple8.jpg) no-repeat;
+}
+.Purple9 {
+  background: url(/assets/images/card/Purple9.jpg) no-repeat;
+}
+.Purple10 {
+  background: url(/assets/images/card/Purple10.jpg) no-repeat;
+}
+.Purple11 {
+  background: url(/assets/images/card/Purple11.jpg) no-repeat;
+}
+.Purple12 {
+  background: url(/assets/images/card/Purple12.jpg) no-repeat;
+}
+.Purple13 {
+  background: url(/assets/images/card/Purple13.jpg) no-repeat;
+}
+.Purple14 {
+  background: url(/assets/images/card/Purple14.jpg) no-repeat;
+}
+
+.field-card-Black1 {
+  background: url(/assets/images/card/Black1.jpg) no-repeat;
+}
+.field-card-Black2 {
+  background: url(/assets/images/card/Black2.jpg) no-repeat;
+}
+.field-card-Black3 {
+  background: url(/assets/images/card/Black3.jpg) no-repeat;
+}
+.field-card-Black4 {
+  background: url(/assets/images/card/Black4.jpg) no-repeat;
+}
+.field-card-Black5 {
+  background: url(/assets/images/card/Black5.jpg) no-repeat;
+}
+.field-card-Black6 {
+  background: url(/assets/images/card/Black6.jpg) no-repeat;
+}
+.field-card-Black7 {
+  background: url(/assets/images/card/Black7.jpg) no-repeat;
+}
+.field-card-Black8 {
+  background: url(/assets/images/card/Black8.jpg) no-repeat;
+}
+.field-card-Black9 {
+  background: url(/assets/images/card/Black9.jpg) no-repeat;
+}
+.field-card-Black10 {
+  background: url(/assets/images/card/Black10.jpg) no-repeat;
+}
+.field-card-Black11 {
+  background: url(/assets/images/card/Black11.jpg) no-repeat;
+}
+.field-card-Black12 {
+  background: url(/assets/images/card/Black12.jpg) no-repeat;
+}
+.field-card-Black13 {
+  background: url(/assets/images/card/Black13.jpg) no-repeat;
+}
+.field-card-Black14 {
+  background: url(/assets/images/card/Black14.jpg) no-repeat;
+}
+.field-card-Yellow1 {
+  background: url(/assets/images/card/Yellow1.jpg) no-repeat;
+}
+.field-card-Yellow2 {
+  background: url(/assets/images/card/Yellow2.jpg) no-repeat;
+}
+.field-card-Yellow3 {
+  background: url(/assets/images/card/Yellow3.jpg) no-repeat;
+}
+.field-card-Yellow4 {
+  background: url(/assets/images/card/Yellow4.jpg) no-repeat;
+}
+.field-card-Yellow5 {
+  background: url(/assets/images/card/Yellow5.jpg) no-repeat;
+}
+.field-card-Yellow6 {
+  background: url(/assets/images/card/Yellow6.jpg) no-repeat;
+}
+.field-card-Yellow7 {
+  background: url(/assets/images/card/Yellow7.jpg) no-repeat;
+}
+.field-card-Yellow8 {
+  background: url(/assets/images/card/Yellow8.jpg) no-repeat;
+}
+.field-card-Yellow9 {
+  background: url(/assets/images/card/Yellow9.jpg) no-repeat;
+}
+.field-card-Yellow10 {
+  background: url(/assets/images/card/Yellow10.jpg) no-repeat;
+}
+.field-card-Yellow11 {
+  background: url(/assets/images/card/Yellow11.jpg) no-repeat;
+}
+.field-card-Yellow12 {
+  background: url(/assets/images/card/Yellow12.jpg) no-repeat;
+}
+.field-card-Yellow13 {
+  background: url(/assets/images/card/Yellow13.jpg) no-repeat;
+}
+.field-card-Yellow14 {
+  background: url(/assets/images/card/Yellow14.jpg) no-repeat;
+}
+.field-card-Green1 {
+  background: url(/assets/images/card/Green1.jpg) no-repeat;
+}
+.field-card-Green2 {
+  background: url(/assets/images/card/Green2.jpg) no-repeat;
+}
+.field-card-Green3 {
+  background: url(/assets/images/card/Green3.jpg) no-repeat;
+}
+.field-card-Green4 {
+  background: url(/assets/images/card/Green4.jpg) no-repeat;
+}
+.field-card-Green5 {
+  background: url(/assets/images/card/Green5.jpg) no-repeat;
+}
+.field-card-Green6 {
+  background: url(/assets/images/card/Green6.jpg) no-repeat;
+}
+.field-card-Green7 {
+  background: url(/assets/images/card/Green7.jpg) no-repeat;
+}
+.field-card-Green8 {
+  background: url(/assets/images/card/Green8.jpg) no-repeat;
+}
+.field-card-Green9 {
+  background: url(/assets/images/card/Green9.jpg) no-repeat;
+}
+.field-card-Green10 {
+  background: url(/assets/images/card/Green10.jpg) no-repeat;
+}
+.field-card-Green11 {
+  background: url(/assets/images/card/Green11.jpg) no-repeat;
+}
+.field-card-Green12 {
+  background: url(/assets/images/card/Green12.jpg) no-repeat;
+}
+.field-card-Green13 {
+  background: url(/assets/images/card/Green13.jpg) no-repeat;
+}
+.field-card-Green14 {
+  background: url(/assets/images/card/Green14.jpg) no-repeat;
+}
+.field-card-Purple1 {
+  background: url(/assets/images/card/Purple1.jpg) no-repeat;
+}
+.field-card-Purple2 {
+  background: url(/assets/images/card/Purple2.jpg) no-repeat;
+}
+.field-card-Purple3 {
+  background: url(/assets/images/card/Purple3.jpg) no-repeat;
+}
+.field-card-Purple4 {
+  background: url(/assets/images/card/Purple4.jpg) no-repeat;
+}
+.field-card-Purple5 {
+  background: url(/assets/images/card/Purple5.jpg) no-repeat;
+}
+.field-card-Purple6 {
+  background: url(/assets/images/card/Purple6.jpg) no-repeat;
+}
+.field-card-Purple7 {
+  background: url(/assets/images/card/Purple7.jpg) no-repeat;
+}
+.field-card-Purple8 {
+  background: url(/assets/images/card/Purple8.jpg) no-repeat;
+}
+.field-card-Purple9 {
+  background: url(/assets/images/card/Purple9.jpg) no-repeat;
+}
+.field-card-Purple10 {
+  background: url(/assets/images/card/Purple10.jpg) no-repeat;
+}
+.field-card-Purple11 {
+  background: url(/assets/images/card/Purple11.jpg) no-repeat;
+}
+.field-card-Purple12 {
+  background: url(/assets/images/card/Purple12.jpg) no-repeat;
+}
+.field-card-Purple13 {
+  background: url(/assets/images/card/Purple13.jpg) no-repeat;
+}
+.field-card-Purple14 {
+  background: url(/assets/images/card/Purple14.jpg) no-repeat;
+}
+
+.field-bid-card-0 {
+  background: url(/assets/images/card/bid0.jpg) no-repeat;
+}
+.field-bid-card-1 {
+  background: url(/assets/images/card/bid1.jpg) no-repeat;
+}
+.field-bid-card-2 {
+  background: url(/assets/images/card/bid2.jpg) no-repeat;
+}
+.field-bid-card-3 {
+  background: url(/assets/images/card/bid3.jpg) no-repeat;
+}
+.field-bid-card-4 {
+  background: url(/assets/images/card/bid4.jpg) no-repeat;
+}
+.field-bid-card-5 {
+  background: url(/assets/images/card/bid5.jpg) no-repeat;
+}
+.field-bid-card-6 {
+  background: url(/assets/images/card/bid6.jpg) no-repeat;
+}
+.field-bid-card-7 {
+  background: url(/assets/images/card/bid7.jpg) no-repeat;
+}
+.field-bid-card-8 {
+  background: url(/assets/images/card/bid8.jpg) no-repeat;
+}
+.field-bid-card-9 {
+  background: url(/assets/images/card/bid9.jpg) no-repeat;
+}
+.field-bid-card-10 {
+  background: url(/assets/images/card/bid10.jpg) no-repeat;
+}
+
+.selectable-card:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.un-selectable-card {
+    filter: grayscale(100%);
+}
+
+.selected-card {
+    filter: grayscale(100%);
+}
+
+.deck-div {
+  background: url(/assets/images/black.jpg) no-repeat;
+}
+
+.round-radio-div {
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px #00000052;
+}
+
+.round-radio-div > div {
+    position: relative;
+    border: solid 1px #00000052;
+    flex: 1px;
+}
+
+.round-radio-div > div > input {
+    height: 20px;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.round-radio-div > div > label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.round-radio-div > div > input:checked + label {
+    background: #000;
+    color: #FFF;
+}
+
+.rule-radio-div {
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px #00000052;
+}
+
+.rule-radio-div > div {
+    position: relative;
+    border: solid 1px #00000052;
+    flex: 1px;
+}
+
+.rule-radio-div > div > input {
+    height: 20px;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.rule-radio-div > div > label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.rule-radio-div > div > input:checked + label {
+    background: #000;
+    color: #FFF;
+}
+
+.member-radio-div {
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px #00000052;
+}
+
+.member-radio-div > div {
+    position: relative;
+    border: solid 1px #00000052;
+    flex: 1px;
+}
+
+.member-radio-div > div > input {
+    height: 20px;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.member-radio-div > div > label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.member-radio-div > div > input:checked + label {
+    background: #000;
+    color: #FFF;
+}
+
+.create-room-popup {
+    border-radius: 5px;
+    border: solid 1px #00000052;
+    padding: 15px;
+}
+
+ul.rooms-list-ul {
+    padding: 0;
+    margin: 16px 0 0 0;
+    border: solid 1px #0008;
+    border-radius: 5px;
+}
+
+li.rooms-list-ul-li {
+    display: block;
+    padding: 15px;
+    border-bottom: solid 1px #0000005c;
+}
+
+li.rooms-list-ul-li:hover {
+    background: #000;
+    transition: background-color 0.5s linear;
+    color: #FFF;
+    transition: color 0.3s linear;
+}
